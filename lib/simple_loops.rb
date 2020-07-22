@@ -7,8 +7,11 @@ def loop_message_n_times(message, n)
   n.times do puts message end
 end
 
-def output_array
-  
+def output_array(array)
+  counter = 0
+  while counter < array.length do 
+    puts array[counter]
+  end
 end
 
 def return_string_array
